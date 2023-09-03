@@ -11,8 +11,5 @@ const swiper = new Swiper(".swiper", {
   pagination: {
     el: ".swiper-pagination", // Use your custom pagination container
     clickable: true, // Make pagination buttons clickable
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + menu[index] + "</span>";
-    },
   },
 });
